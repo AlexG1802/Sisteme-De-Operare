@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <style>
+  p { text-decoration: blink; 
+    text-indent: 20px;
+    font-size: 18px;
+    font-family: "Times New Roman", Arial,Serif; }
+    body
+    {
+      background-color: tan	; 
+    }
+    h3{
+      font-weight:bold;
+      text-decoration: underline;
+    }
+    
+  </style>
+  </head>
+<title> Instalarea sistemelor de operare </title>
+<body>
+<h3 align="center"> Instalarea sistemelor de operare</h3>
+<p align="justify">
+   Instalarea sistemului de operare este de pe DVD sau Stick. Acest lucru presupune realizarea unei setări de BIOS, care să permită citirea unităţii optice ca primă secvenţă de boot. 
+După pornirea calculatorului, meniul BIOS este accesibil prin apăsarea tastelor indicate în mesajul Press DEL to enter setup, F8 to enter Boot Menu. Alte taste folosite pentru aceesarea BIOS-ului mai pot fi F1, F2, F8 sau F10. 
+Este posibilă detectarea componentelor hardware, folosind opţiunea Auto detecting hardware, care permite verificarea configurărilor existente pentru hard disk şi unitatea optică, (dacă este Prim master sau Prim slave, etc.). Se selectează Standard CMOS Features şi componenta hardware care ne interesează. Aici regăsim informaţia cu privire la tipul de configurare. După tastarea tastei ENTER ne apare disponibilă opţiunea Auto detecting hardware,  pentru dispozitivul respectiv.
+</p>
+<p align="justify">
+Ecranul BIOS disponibil ca primă interfaţă este următorul:
+</p>
+<br />
+       <img align="bottom" src="Imagini/BIOS.jpg" alt="BIOS"/> 
+<br />
+<p align="center"> <b>Inferfața BIOS</b></p>
+<p align="justify">
+Pentru setările de boot se foloseşte opţiunea Advanced BIOS Features. Aici se regăsesc şi opţiunile First Boot Device, Second Boot Device. Pentru selectarea dispozitivului de boot se procedează astfel: alegem opţiunea First Boot Device, ne poziţionăm cu tastele săgeţi pe dispozitivul care ne interesează şi tastăm ENTER.
+</p>
+<br />
+       <img align="bottom" src="Imagini/SecvBoot.jpg" alt="Secvență Boot"/> 
+<br />
+<p align="center"> <b> Interfaţa pentru setarea secvenţei de boot</b></p>
+<p align="justify">
+Salvarea setărilor de BIOS se realizează folosind opţiunea Save & Exit Setup şi tasta „Y”, dacă dorim salvare, respectiv „N” dacă nu se doreşte salvarea. Pentru părăsirea BIOS-ului  fără salvare există şi opţiunea Exit Without Saving. 
+<br />
+Setările de BIOS pot influenţa funcţionarea calculatorului, încă de la secvenţa de boot. Dacă nu se cunosc opţiunile foarte bine este recomandată părăsirea BIOS-ului fără salvare.
+</p>
+<p align="left"><font size="3"><strong>Generalitățiile instalării unui OS(PC)</strong></font>
+</p>
+<p align="justify">
+Instalarea sistemului de operare este necesară în diverse situaţii, dintre care enumerăm: achiziţionarea unui calculator nou, schimbarea hard disk-ului, instalarea unui al doilea sistem de operare pe acelaşi calculator, când un calculator nu mai funcţionează, când din cauza virusării sunt şterse fişiere sistem şi sistemul de operare nu mai funcţionează în condiţii optime, când un calculator este transferat de la un utilizator la altul.
+</p>
+<p align="justify">
+   	 Condiţia necesară funcţionării corecte a unui sistem de operare este compatibilitatea dintre cerinţele sistemului de operare şi configuraţia hardware a calculatorului. Înainte de instalarea sistemului de operare trebuie verificate cerinţele hardware minime. Componentele hardware definitorii sunt: frecvenţa de lucru a microprocesorului, spaţiu disponibil pe hard disk, dimensiunea memoriei RAM şi tipul plăcii video. Lista de compatibilitate Hardware se regăseşte pe site-ul producătorului, la secţiunea Windows Hardware Compatibility list.
+     </p>
+     <p align="justify">
+ 	 Sistemele de operare sunt de două tipuri: desktop – creat pentru un mediu de tip birou şi cu un număr de utilizatori mare; pentru reţea – creat pentru un mediu corporativ cu mai mulţi utilizatori care execută aplicaţii de tip multi-user. Ca şi tipuri de sisteme de operare amintim: Microsoft Windows, Apple Mac OS şi Unix/Linux, toate cele trei grupuri oferind variante atât pentru varianta desktop cât şi pentru reţea.
+     </p>
+     <p>
+Modalităţile de instalare Windows sunt următoarele:
+-instalarea pe „curat”
+-upgrade de la un sistem de operare mai vechi
+-instalarea mai multor sisteme de operare pe acelaşi calculator
+-instalarea Windows 10 în mod automat
+</p>
+<p>
+1. Instalarea pe „curat” constă în: formatarea partiţiei pe care se realizează instalarea; instalarea  driverele corespunzătoare componentelor hardware; reinstalarea aplicaţiilor şi a programelor cu care lucrează utilizatorul şi reconfigurarea interfeţei grafice, a conexiunilor de internet şi a aplicaţiilor specifice.
+</p>
+ 	<p>
+    2. Upgrade de la un sistem de operare mai vechi se face atunci când este necesară îmbunătăţirea unui sistem de operare. Primul lucru care trebuie făcut este verificarea cerinţelor minime ale noului sistem de operare, pentru a avea certitudinea că există compatibilitate între componentele hardware ale calculatorului şi noul sistem de operare. Se recomandă realizarea unui back-up înainte  de  lansarea în execuţie a procedurii de  upgrade. O procedură de upgradare este mai rapidă decât instalarea de la zero şi prezintă şi avantajul păstrării programelor instalate şi a setărilor existente. După lansarea în execuţie a noului sistem de operare cu ajutorul Windows setup Wizard trebuie aleasă opţiunea Upgrade to Windows 10 (de exemplu) şi respectarea paşilor specifici instalării unui sistem de operare.
+    </p>
+    <p>
+      3.Instalarea mai multor sisteme de operare pe acelaşi calculator se practică atunci când avem nevoie de aplicaţii care sunt compatibile cu o anumită variantă mai veche, dar şi de aplicaţii care rulează pe o variantă mai nouă.  Mai întâi se instalează sistemul de operare mai vechi pe partiţia activă, pe care este creat fişierul boot.ini  care permite selectarea sistemului d e operare. Pe partiţia secundară se instalează cel de-al doilea sistem de operare. Un sistem de operare, pe care dorim, se va selecta implicit, iar celălat poate fi selectat în timpul procesului de pornire, într-un interval de timp de 30 de secunde. Editarea fişierului boot.ini  se realizeză din: click dreapta pe My Computer - Properties - Advanced Tab - Startup and Recovery şi Settings, apoi click pe Edit. </p>
+      <p align="justify">
+     4.Instalarea Windows 10 în mod automat necesită o intervenţie minimă din partea utilizatorului şi foloseşte setările implicite oferite de Windows Setup Wizard.
+</p>
+<p align="left"><font size="3"><strong>Instalarea unui sistem de operare(Etape)</strong></font>
+</p>
+<p align="justify">
+<b>Prima etapă</b> în instalarea unui sistem de operare o constituie setarea BIOS-ului, pentru bootarea de pe unitatea optică.
+</p>
+<p align="justify">
+    <b>A doua etapă</b> o constituie pregătirea hard-disk-ului. Aici se încadrează operaţiile de partiţionare şi formatare a hard disk-ului. Ecranul Windows 10 Pro dispune de opţiuni pentru: ştergerea unei partiţii, utilizând tasta D; crearea unei partiţii pentru spaţiul nealocat, utilizând tasta C şi instalarea pe partiţia existentă, utilizând tasta ENTER. În faza ulterioară, se solicită introducerea dimensiunii partiţiei pe care dorim să o creăm, din spaţiul nealocat disponibil. Operaţiunea următoare constă în formatarea partiţiei create şi opţiunile disponibile sunt: Format the partition using the NTFS file system şi Format the partition using the FAT  file system. După selectarea tipului de partiţionare dorit se trece la formatarea propriu zisă, urmată de iniţializarea instalării sistemului de operare.
+    </p>
+    <p align="justify">
+      	 Instalarea efectivă a sistemului de operare Windows 10
+Opţiunile disponibile în ecranul Windows XP Professional Setup  sunt:<br />
+Setup - pentru a rula setup-ul, folosind tasta ENTER. <br />
+Repair - pentru a repara o instalare, folosind tasta R care deschide Recovery Console (Consola de Recuperare). <br />
+Quit - pentru a părăsi setup-ul fără a instala Windows 10, tasta F3. 
+<br />
+</p>
+<p align="justify">
+  	 Următorul ecran Windows 10 Licensing solicită acceptarea condiţiilor de licenţă prin apăsarea tastei F8. În această fază se va verifica dacă pe calculator există alte sisteme de operare instalate. Următorul pas permite repararea sistemului de operare existent sau instalarea unei variante noi, fără a fi afectată varianta existentă. Dacă se alege opţiunea Repair, vom avea şansa păstrării documentelor salvate în secţiunea My Documents şi pe Desktop, programele instalate vor rămâne funcţionale şi nu va fi necesară reinstalarea driverelor corespunzătoare dispozitivelor hardware. Folosind Setup, situaţia se schimbă radical, în sensul că nu vom mai regăsi documentele din secţiunea My Documents şi Desktop, iar programele  şi driverele necesită o nouă instalare.
+     </p>
+     <p align="justify">
+  	 Se continuă procesul de instalare cu pregătirea hard disk-ului. Calculatorul se va restarta automat şi pe ecran apare „Press Any Key to Boot from CD/DVD”. Nu se va apăsa nici o tastă şi va apărea ecranul „Welcome to Microsoft Windows”.
+     </p>
+     <p align="justify">
+   	De-a lungul procesului de instalare, se vor solicita în ordine cronologică următoarele informaţii: cheia produsului, setări de dată şi de oră, limba dorită, numele calculatorului şi parola administratorului, setări de reţea şi informaţii despre domeniu sau workgroup.
+</p>
+<br />
+<img align="bottom" src="Imagini/Win10Parola.jpg" alt="Fereastră pentru parolă Win10" >
+<br />
+<p align="center"> <b>Fereastră pentru parolă Win10</b></p>
+<p align="justify">
+<b>Finalizarea instalării</b>  se realizează după ce se copiază toate fişierele necesare sistemului de operare pe hard disk-ul local. Înainte de reboot-are se va solicita înregistrarea  variantei instalate. Acest lucru presupune existenţa unei conexiuni la internet. Odată realizată înregistrarea, utilizatorul va avea acces la instalarea tuturor pachetelor de servicii disponibile pentru varianta instalată (service packs) şi a tuturor patch-urilor. Modalitatea de a realiza acest lucru este accesând Start > Settings > Update& Security> Windows Update.
+<p>
+Următoarea etapă este instalarea driverelor corespunzătoare dispozitivelor existene în calculator. Instalarea începe cu placa de bază, placa video (dacă nu este încorporată li se instalează implicit la instalarea plăcii de bază), placa de sunet, placa de reţea, imprimantă, scanner etc. 
+</p>
+<p align="justify">
+  <b>Opţiunile de  instalare</b> avansate intră în discuţie atunci când se pune problema instalării unui sistem de operare în reţea. Cea mai uzuală metodă folosită se bazează pe clonarea unui sistem de operare, cu ajutorul unor softuri specializate în realizarea unor clone sau cu ajutorul utilitarului Microsoft System Preparation (Sysprep) . Această procedură se poate folosi cu succes dacă calculatoarele din reţea au aceeaşi configuraţie hardware dar nu numai. Etapele specifice unei astfel de proceduri sunt: instalarea unui sistem de operare pe unul din calculatoare, cu configurările care se pot face; realizarea clonei folosind un software specializat sau Sysprep; copierea imaginii pe un server sau pe un alt suport (DVD, hard disk extern, memory stick, etc); instalarea sistemului de operare pe calculatoarele din reţea folosind clona existentă.
+Descrierea diferitelor moduri de pornire a sistemul de operare Windows
+   	 Apăsarea tastei F8 în timpul procesului de pornire va deschide meniul Windows Advanced Startup Options, care vă permite să selectaţi modul in care să porniţi Windows 10. Opţiunile disponibile sunt:
+     <br />
+<p>
+  Safe Mode – Porneşte Windows dar încarcă numai driver-ele pentru componentele de bază, cum ar fi tastatura şi monitorul.
+  </p>
+<p>
+Safe Mode cu suport de reţea – Porneşte Windows la fel ca Safe Mode dar încarcă şi driver-ele pentru componentele de reţea.
+  </p>
+  <p>
+ Safe Mode cu prompt de comandă – Porneşte Windows şi încarcă promptul de comandă în locul interfeţei grafice.
+  </p>
+
+<p align="justify">
+<b>Ultima configuraţie bine cunoscută</b> – Permite unui utilizator să încarce configuraţia Windows folosită la ultima pornire cu succes a sistemului de operare. Acest lucru este realizat accesând o copie a registrilor care este creată cu acest scop.
+</p>
+<p align="justify">
+    	 <b>Fişierele pentru secvenţa de pornire şi fişierele de regiştrii</b> sunt responsabile de pornirea şi configurarea sistemului de operare într-un mod specific fiecărui utilizator. Sistemul de operare Windows dispune de două utilitare pentru configurarea secvenţei de boot şi pentru configurarea regiştrilor şi anume, Msconfig şi respectiv Regedit.
+         </p>
+<p align="justify">
+   	Pentru a deschide fereastra System Configuration trebuie să se tasteze msconfig în promperul editorului MsDOS. System configuration este un instrument avansat care ne permite să identificăm şi să rezolvăm problemele legate de pornirea corectă a sistemului de operare. Se pot stabili: modalităţi de Startup pentru sistemul de operare de genul, Normal Startup, Diagnostic Startup sau Selectiv Startup; setări legate de boot; pornirea sau oprirea unor servicii şi aplicaţii care se iniţializează la pornire şi accesarea instrumentelor disponibile in sistem.
+</p>
+<br />
+<img align="bottom" src="Imagini/SysConfig.jpg" alt="Fereastră System Configuration" >
+<br />
+<p align="center"> <b>Fereastră System Configuration</b></p>
+<p align="justify">
+Regiştrii Windows sunt responsabili de secvenţa de boot-are a sistemului de operare. După ce NT Loaderul a fost localizat de către Master Boot Record, acesta oordonează procesul de poernire a sistemului de instalare, folosind regiştrii Windows. Denumirea specifică pentru această clasă de regiştri este: HKEY_ urmată de CLASSES_ROOT sau CURENT_USER, etc. De exemplu, HKEY_USER deţine informaţii despre utilizatorii pe care sistemul de operare i-a identificat. Această clasă de regiştrii deţine informaţii despre: setări, utilizatori autentificaţi, hardware şi software şi extensiile specifice programelor instalate. 
+</p>
+<p align="justify">
+Editorul de regiştri, Registry Editor, se deschide tastând regedit în editorul de comenzi MsDOS. Figura 2.3.3. conţine  interfaţa Registry Editor, unde se pot vedea denumirile regiştrilor mai sus amintiţi. Din meniul Edit putem să edităm valorile pentru diferiţi parametrii sau să adăugăm alţii noi.
+</p>
+<br />
+<img align="bottom" src="Imagini/RegeditWin10.jpg" alt="Fereastra Registry Editor" >
+<br />
+<p align="center"> <b>Fereastra Registry Editor</b></p>
+</body>
+</html>
